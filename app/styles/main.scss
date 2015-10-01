@@ -8,13 +8,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   height: 5px;
   color: #76e1ab;
   background: #68c19a;
+  position:relative;
   
   .link {
     width: 100px;
     height: 100px;
     color: #76e1ab;
     background: #68c19a;
-    border: black 1px solid;
+    position:absolute;
+    top:0;
+    right:0;
+    overflow:hidden;
   }
 
 }
